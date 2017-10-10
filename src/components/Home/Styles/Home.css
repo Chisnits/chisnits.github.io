@@ -1,0 +1,156 @@
+.panels{
+    position: absolute;
+    width: 100%;
+  }
+  .panel1{
+    height: 17vh;
+    width: 100%;
+    background-image:url('../../../assets/entrance.JPG');
+    background-position: 30% 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
+  }
+  .panel2{
+    height: 16.6vh;
+    width: 100%;
+    background-image:url('../../../assets/clubhouse.JPG'); 
+    background-position: 30% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
+  }
+  .panel3{
+    height: 16.6vh;
+    width: 100%;
+    background-image:url('../../../assets/sunset.JPG'); 
+    background-position: 30% 68%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
+  }
+  .panel4{
+    height: 16.6vh;
+    width: 100%;
+    background-image:url('../../../assets/streetview.JPG'); 
+    background-position: 30% 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition:
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
+  }
+  .panel5{
+    height: 16.6vh;
+    width: 100%;
+    background-image:url('../../../assets/streetsign.JPG'); 
+    background-position: 30% 58%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    transition:
+    font-size 0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    0.7s cubic-bezier(0.61,-0.19, 0.7,-0.11),
+    background 0.2s;
+  }
+  .animated-1 {
+  background-image:url('../../../assets/entrance.JPG');
+  background-position: 30% 37%;
+  background-size: cover;
+  background-repeat: no-repeat;
+	box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+    height: 50vh;
+    transition:transform 0.5s ease-out, 0.5s ease;
+}
+  .animated-2 {
+  background-image:url('../../../assets/clubhouse.JPG'); 
+  background-position: 30% 70%;
+  background-size: cover;
+  background-repeat: no-repeat;
+	box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+    height: 50vh;
+    transition:transform 0.5s ease-out, 0.5s ease;
+}
+  .animated-3 {
+  background-image:url('../../../assets/sunset.JPG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+	box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+    height: 50vh;
+    transition:transform 0.5s ease-out, 0.5s ease;
+}
+  .animated-4 {
+    background-image:url('../../../assets/streetview.JPG'); 
+    background-position: 30% 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+	box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+    height: 50vh;
+    transition:transform 0.5s ease-out, 0.5s ease;
+}
+  .animated-5 {
+  background-image:url('../../../assets/streetsign.JPG');
+  background-position: 30% 80%;
+  background-size: cover;
+  background-repeat: no-repeat; 
+	box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+    height: 50vh;
+    transition:transform 0.5s ease-out, 0.5s ease;
+}
+@media(max-width: 900){
+  .animated-1 {
+    background-image:url('../../../assets/entrance.JPG');
+    background-position: 30% 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+      height: 32vh;
+      transition:transform 0.5s ease-out, 0.5s ease;
+  }
+    .animated-2 {
+    background-image:url('../../../assets/clubhouse.JPG'); 
+    background-position: 30% 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+      height: 32vh;
+      transition:transform 0.5s ease-out, 0.5s ease;
+  }
+    .animated-3 {
+    background-image:url('../../../assets/sunset.JPG');
+    background-position: 30% 65%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+      height: 32vh;
+      transition:transform 0.5s ease-out, 0.5s ease;
+  }
+    .animated-4 {
+      background-image:url('../../../assets/streetview.JPG'); 
+      background-position: 30% 65%;
+      background-size: cover;
+      background-repeat: no-repeat;
+    box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+      height: 32vh;
+      transition:transform 0.5s ease-out, 0.5s ease;
+  }
+    .animated-5 {
+    background-image:url('../../../assets/streetsign.JPG');
+    background-position: 30% 65%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow:	0px 1px 3px 0px rgba(0, 0, 0, .3);
+      height: 32vh;
+      transition:transform 0.5s ease-out, 0.5s ease;
+  }
+}

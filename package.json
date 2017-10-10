@@ -1,0 +1,39 @@
+{
+  "name": "neighorhood",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "datejs": "^1.0.0-rc3",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "^15.6.1",
+    "react-addons-css-transition-group": "^15.6.0",
+    "react-dom": "^15.6.1",
+    "react-infinite-calendar": "^2.3.1",
+    "react-router-dom": "^4.1.2",
+    "sweetalert2": "^6.10.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chisnits/chisnits.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chisnits/chisnits.github.io/issues"
+  },
+  "homepage": "https://github.com/Chisnits/chisnits.github.io#readme"
+}
